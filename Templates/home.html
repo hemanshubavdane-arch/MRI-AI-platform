@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+<h2>Upload MRI Scan</h2>
+<form action="/predict" method="post" enctype="multipart/form-data">
+<input type="file" name="file" required><br><br>
+<button>Run AI Analysis</button>
+</form>
+</div>
+{% endblock %}

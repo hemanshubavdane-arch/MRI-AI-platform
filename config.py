@@ -1,0 +1,3 @@
+DEBUG = True
+LOW_RISK_CM3 = 5
+MID_RISK_CM3 = 20

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+<h2>Result</h2>
+<p><b>Status:</b> {{ result }}</p>
+<p><b>Confidence:</b> {{ confidence }}%</p>
+<img src="/static/heatmap.png" width="320">
+</div>
+
+<div id="viewer"></div>
+
+<img src="/static/heatmap.png" width="320">
+<script src="/static/viewer.js"></script>
+
+{% endblock %}
